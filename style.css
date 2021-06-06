@@ -1,0 +1,95 @@
+
+
+body{
+	background-image: url("https://i.pinimg.com/originals/e1/dd/1a/e1dd1a6063a73c920d8a442cceed97e8.jpg");
+	background-size: 100%;
+}
+
+h1{
+	color: white;
+	text-align: center;	
+	background-size: 100%;
+	font-family: Arial;
+	font-size: 50px
+}
+table {
+	  border: 2px solid white;
+    border-collapse: collapse;
+	  text-align: center;
+		font-family: Arial
+}
+#vitoria{
+	background-color: rgb(49, 49, 49);
+}
+#derrota{
+	background-color: rgb(49, 49, 49);
+}
+#empate{
+	background-color: rgb(49, 49, 49);
+}
+
+
+#vitoria:hover {
+	background-color: rgb(9, 136, 60);
+}
+#derrota:hover {
+	background-color: rgb(191, 0, 0);
+}
+#empate:hover {
+	background-color: rgb(166, 92, 0);
+}
+
+#vitoria:active {
+	background-color: rgb(63, 63, 63);
+}
+#derrota:active {
+	background-color: rgb(63, 63, 63);
+}
+#empate:active {
+	background-color: rgb(63, 63, 63);
+}
+
+.acoes{
+	  border: 2px;
+    border-collapse: collapse;
+	  text-align: center;
+}
+
+th, tr, td {
+    border: solid 1px white;
+    color: white;
+}
+
+button{
+	border: none;	
+	cursor: pointer;
+	border-radius: 6px;
+	color: white;
+	width: 150px;
+}
+
+input{
+	width: 300px;
+	text-align: center;
+	outline: none;
+	border-radius: 6px;
+	background-color: transparent;
+	color: white;
+	font-style: bolder;
+}
+
+
+.input{
+	color: white;
+	font-style: bolder;
+	width: 100px;
+	background-color: transparent	
+}
+
+.input:hover{
+	background-color: rgb(166, 92, 0);
+}
+
+li{
+	list-style: ""
+}

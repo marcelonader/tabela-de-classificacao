@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+	<head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width"/>
+        <title>Tabela de Classificação</title>
+		<link rel="stylesheet" href="style.css">
+	</head>
+	<body>
+        <h1> Tabela de Classificação</h1>
+		
+		<ul>
+			
+			
+		<li><input type="text" id="jogador1" placeholder="Nickname do jogador1">
+		<button class="input" onclick="adicionarJogador1()">Adicionar</button></li>
+				
+		<li><input type="text" id="jogador2" placeholder="Nickname do jogador2">
+		<button class="input" onclick="adicionarJogador2()">Adicionar</button></li>
+				
+		<li><input type="text" id="jogador3" placeholder="Nickname do jogador3">
+		<button class="input" onclick="adicionarJogador3()">Adicionar</button></li>
+				
+		<li><input type="text" id="jogador4" placeholder="Nickname do jogador4">
+		<button class="input" onclick="adicionarJogador4()">Adicionar</button></li>
+				
+		<li><input type="text" id="jogador5" placeholder="Nickname do jogador5">
+		<button class="input" onclick="adicionarJogador5()">Adicionar</button></li>
+			<li>  </li>
+	    
+        <table style="width: 100%">
+            <thead>
+                <tr>
+                    <th>Jogador</th>
+                    <th>Vitórias</th>
+                    <th>Derrotas</th>
+                    <th>Empates</th>
+                    <th>Pontos</th>
+                    <th class="acoes"></th>
+                    <th class="acoes">Ações</th>
+                    <th class="acoes"></th>
+                </tr>
+            </thead>
+            <tbody id="listaDeJogadores">
+                
+            </tbody>
+	    </table>
+		<script src="script.js"></script>
+	</body>
+</html>
+		
